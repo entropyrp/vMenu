@@ -800,7 +800,7 @@ namespace vMenuClient
                 Label = "→→→"
             };
             AddMenu(Menu, sub, btn);
-
+          
             // Refresh everything.
             MenuController.Menus.ForEach((m) => m.RefreshIndex());
 
